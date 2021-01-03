@@ -166,7 +166,7 @@ The results obtained from modeling using supervised learning
 #### RANDOM FOREST (CATEGORICAL TARGET VARIABLE)
 Training Data Accuracies
 
-    Random Forest                     98.99%%
+    Random Forest                     98.99%
     Random Forest Parameter Tunning   95.73%
     Random Forest Feature Selection   94.73%
     Random Forest - PCA               95.02%
