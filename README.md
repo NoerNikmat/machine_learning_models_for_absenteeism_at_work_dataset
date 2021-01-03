@@ -158,4 +158,72 @@ References
 - https://deepai.org/machine-learning-glossary-and-terms/random-forest
 - https://docs.oracle.com/cd/E11882_01/datamine.112/e16808/algo_svm.htm#DMCON027
 
+## RESULTS
+After modeling with various parameters and models, it can conclude that the model to achieve the best prediction is to use the Random Forest model with categorical variables. Not recommended required for continuous data.
 
+The results obtained from modeling using supervised learning
+    
+#### RANDOM FOREST (CATEGORICAL TARGET VARIABLE)
+Training Data Accuracies
+
+    Random Forest                     98.99%%
+    Random Forest Parameter Tunning   95.73%
+    Random Forest Feature Selection   94.73%
+    Random Forest - PCA               95.02%
+    Random Forest - LDA               95.16% 
+
+Test Data Accuracies
+
+    Random Forest                     93.82%
+    Random Forest Parameter Tunning   89.19%
+    Random Forest Feature Selection   94.73%
+    Random Forest - PCA               94.73%
+    Random Forest - LDA               94.86% 
+    
+#### SUPPORT VECTOR MACHINE
+##### SVM Classification 
+Training Data Accuracies
+    
+    SVM-LINEAR      94.054%
+    SVM-POLYNOMIAL  94.054%
+    
+Test Data Accuracies
+
+    SVM-LINEAR      93.784% 
+    SVM-POLYNOMIAL  94.054%
+    
+##### SVM Regression (Not recommended)
+Training Data Accuracies
+    
+    SVM-LINEAR      44.865% 
+    SVM-POLYNOMIAL  44.595%
+    
+Test Data Accuracies
+
+    SVM-LINEAR      44.865%  
+    SVM-POLYNOMIAL  44.595% 
+    
+#### DECISION TREE (CATEGORICAL TARGET VARIABLE)
+Training Data Accuracies
+
+    Decision tree - variable                     90.27%
+    Training Decision tree - features selection  90.99%  
+    Training Decision tree - scaling             90.54%
+    Decision tree - PCA                          87.84%  
+
+Test Data Accuracies
+
+    Decision tree - variable                     5.94%
+    Training Decision tree - features selection  6.08% 
+    Training Decision tree - scaling             5.95%
+    Decision tree - PCA                          5.95%  
+
+#### K-NEAREST NEIGHBORS (CATEGORICAL TARGET VARIABLE)
+Training Data Accuracies
+    
+    K Neighbors Categorical Target Variable      90.54%
+  
+Test Data Accuracies
+
+    K Neighbors Categorical Target Variable       5.94%
+    
