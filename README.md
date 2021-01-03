@@ -12,7 +12,7 @@ The database was created with records of absenteeism at work from July 2007 to J
     Associated Tasks          : Classification, Clustering               Missing Values?       : N/A
 
 #### METADATA
-    Usage Information             License                     CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+    Usage Information             License                     CC0: Public Domain (https://creativecommons.org/publicdomain/zero/1.0//)
                                   Visibility                  visibility Public
     
     Provenance                    Sources                     (https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work)
