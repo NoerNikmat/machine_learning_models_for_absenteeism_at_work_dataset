@@ -1,6 +1,112 @@
 # MODELING ABSENTEEISM AT WORK DATASET USING SUPERVISED LEARNING
 Machine Learning Models for Absenteeism at Work Dataset
 
+## ABOUT DATASET
+### ABSENTEEISM AT WORK DATASET
+#### ABSTRACT
+Absenteeism at work An UCI dataset on Kaggle link data set : https://www.kaggle.com/loganalive/absenteeism-at-work-an-uci-dataset
+The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil.
+
+    Data Set Characteristics  : Multivariate, Time-Series                Number of Instances   : 740 
+    Attribute Characteristics : Integer, Real                            Number of Attributes  : 21
+    Associated Tasks          : Classification, Clustering               Missing Values?       : N/A
+
+#### METADATA
+    Usage Information             License                     CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+                                  Visibility                  visibility Public
+    
+    Provenance                    Sources                     (https://archive.ics.uci.edu/ml/datasets/Absenteeism+at+work)
+
+    Maintainers                   Dataset owner               rahul bhaskaran (https://www.kaggle.com/loganalive)
+
+    Updates                       Expected update frequency   Never
+                                  Last updated                2018-04-27                 
+                                  Date created                2018-04-27                  
+                                  Current version             Version 1
+
+#### DATA SET INFORMATION
+The data set allows for several new combinations of attributes and attribute exclusions, or the modification of the attribute type (categorical, integer, or real) depending on the purpose of the research.The data set (Absenteeism at work - Part I) was used in academic research at the Universidade Nove de Julho - Postgraduate Program in Informatics and Knowledge Management.
+
+#### ATTRIBUTE INFORMATION
+  1. Individual identification (ID)
+  2. Reason for absence (ICD).
+    
+    Absences attested by the International Code of Diseases (ICD) stratified into 21 categories (I to XXI) as follows:
+    
+    I Certain infectious and parasitic diseases
+    II Neoplasms
+    III Diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism
+    IV Endocrine, nutritional and metabolic diseases
+    V Mental and behavioural disorders
+    VI Diseases of the nervous system
+    VII Diseases of the eye and adnexa
+    VIII Diseases of the ear and mastoid process
+    IX Diseases of the circulatory system
+    X Diseases of the respiratory system
+    XI Diseases of the digestive system
+    XII Diseases of the skin and subcutaneous tissue
+    XIII Diseases of the musculoskeletal system and connective tissue
+    XIV Diseases of the genitourinary system
+    XV Pregnancy, childbirth and the puerperium
+    XVI Certain conditions originating in the perinatal period
+    XVII Congenital malformations, deformations and chromosomal abnormalities
+    XVIII Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified
+    XIX Injury, poisoning and certain other consequences of external causes
+    XX External causes of morbidity and mortality
+    XXI Factors influencing health status and contact with health services.
+
+    And 7 categories without (CID) 
+    patient follow-up (22), 
+    medical consultation (23), 
+    blood donation (24), 
+    laboratory examination (25), 
+    unjustified absence (26), 
+    physiotherapy (27), 
+    dental consultation (28).
+        
+  3. Month of absence
+  4. Day of the week (Monday (2), Tuesday (3), Wednesday (4), Thursday (5), Friday (6))
+  5. Seasons (summer (1), autumn (2), winter (3), spring (4))
+  6. Transportation expense
+  7. Distance from Residence to Work (kilometers)
+  8. Service time
+  9. Age
+  10. Work load Average/day
+  11. Hit target
+  12. Disciplinary failure (yes=1; no=0)
+  13. Education (high school (1), graduate (2), postgraduate (3), master and doctor (4))
+  14. Son (number of children)
+  15. Social drinker (yes=1; no=0)
+  16. Social smoker (yes=1; no=0)
+  17. Pet (number of pet)
+  18. Weight
+  19. Height
+  20. Body mass index
+  21. Absenteeism time in hours (target)
+
+#### RELEVANT PAPERS
+Martiniano, A., Ferreira, R. P., Sassi, R. J., & Affonso, C. (2012). Application of a neuro fuzzy network in prediction of absenteeism at work. In Information Systems and Technologies (CISTI), 7th Iberian Conference on (pp. 1-4). IEEE.
+
+#### CITATION REQUEST
+Martiniano, A., Ferreira, R. P., Sassi, R. J., & Affonso, C. (2012). Application of a neuro fuzzy network in prediction of absenteeism at work. In Information Systems and Technologies (CISTI), 7th Iberian Conference on (pp. 1-4). IEEE.
+
+#### ACKNOWLEDGEMENTS
+- Professor Gary Johns for contributing to the selection of relevant research attributes.
+- Professor Emeritus of Management
+- Honorary Concordia University Research Chair in Management
+- John Molson School of Business
+- Concordia University
+- Montreal, Quebec, Canada
+- Adjunct Professor, OB/HR Division
+- Sauder School of Business,
+- University of British Columbia
+- Vancouver, British Columbia, Canada
+
+## OBJECTIVES
+The purpose of this repo is to evaluate machine learning algorithms which one is best at classifying and predicting attendance categories in the data test.
+
+Formulations can improvise by evaluating each model using a set of training data.
+
 ## MACHINE LEARNING MODEL
 In basic terms, Machine Learning (ML) is the process of training a piece of software, called a model, to make useful predictions using a data set. This predictive model can then serve up predictions about previously unseen data. We use these predictions to take action in a product; for example, the system predicts that a user will like a certain video, so the system recommends that video to the user.
 
