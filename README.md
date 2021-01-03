@@ -4,8 +4,8 @@ Machine Learning Models for Absenteeism at Work Dataset
 ## ABOUT DATASET
 ### ABSENTEEISM AT WORK DATASET
 #### ABSTRACT
-Absenteeism at work An UCI dataset on Kaggle link data set : https://www.kaggle.com/loganalive/absenteeism-at-work-an-uci-dataset
-The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil.
+The database was created with records of absenteeism at work from July 2007 to July 2010 at a courier company in Brazil. Absenteeism at work An UCI dataset on Kaggle link data set : https://www.kaggle.com/loganalive/absenteeism-at-work-an-uci-dataset
+
 
     Data Set Characteristics  : Multivariate, Time-Series                Number of Instances   : 740 
     Attribute Characteristics : Integer, Real                            Number of Attributes  : 21
