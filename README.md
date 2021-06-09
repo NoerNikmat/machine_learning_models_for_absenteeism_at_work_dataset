@@ -102,8 +102,8 @@ Martiniano, A., Ferreira, R. P., Sassi, R. J., & Affonso, C. (2012). Application
 - University of British Columbia
 - Vancouver, British Columbia, Canada
 
-## OBJECTIVES
-The purpose of this repo is to evaluate machine learning algorithms which one is best at classifying and predicting attendance categories in the data test.
+## PROBLEM FRAMING
+Which one is the best model from machine learning algorithms for classifying and predicting the number of employees absent in the workplace workdays? 
 
 Formulations can improvise by evaluating each model using a set of training data.
 
